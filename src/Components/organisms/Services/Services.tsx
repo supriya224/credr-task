@@ -1,5 +1,13 @@
 import styles from './Servicess.module.scss';
 
+
+const Service =({index}:{index: number})=>{
+    return <div className={styles.service}>
+    <div className={styles.cicularIndex}>{index}</div>
+    <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
+</div>   
+}
+
 const Services = () => {
   return (
     <section className={styles.servicesSection} id="services-section" >
@@ -8,48 +16,13 @@ const Services = () => {
     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, error?</h4>
     <div className={styles.services}>
-    <div className={styles.service}>
-        <div className={styles.cicularIndex}>1</div>
-        <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
-    </div>
-    <div className={styles.service}>
-        <div className={styles.cicularIndex}>1</div>
-        <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
-    </div>
-    <div className={styles.service}>
-        <div className={styles.cicularIndex}>1</div>
-        <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
-    </div>
-    <div className={styles.service}>
-        <div className={styles.cicularIndex}>1</div>
-        <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
-    </div>
-    <div className={styles.service}>
-        <div className={styles.cicularIndex}>1</div>
-        <p className={styles.serviceHeading} > Molestias quia dicta totam voluptas odit aliquid laudantium repellendus ?</p>
-    </div>
-{/*     
-    <div className="service">
-        <div className="cicular-index">2</div>
-        <p className="service-heading">Lorem, ipsum dolor.</p>
-    </div>
-    <div className="service">
-        <div className="cicular-index">3</div>
-        <p className="service-heading">Lorem, ipsum dolor.</p>
-    </div>
-    <div className="service">
-        <div className="cicular-index">4</div>
-        <p className="service-heading">Lorem, ipsum dolor.</p>
-    </div>
-    <div className="service">
-        <div className="cicular-index">4</div>
-        <p className="service-heading">Lorem, ipsum dolor.</p>
-    </div>
-    <div className="service">
-        <div className="cicular-index">4</div>
-        <p className="service-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non perspiciatis nihil facere!</p>
-    </div> */}
-    
+    <Service index={1} />
+    <Service index={2}  />
+    <Service index={3} />
+    <Service index={4} />
+    <Service index={5} />
+    <Service index={6} />
+
 </div>
 </div>
 
