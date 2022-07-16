@@ -1,0 +1,21 @@
+
+@import '../../../styles/variables.scss';
+
+.btn {
+    padding: 1rem;
+    color: hsl($clr-white);
+    padding: 1rem;
+    color: hsl($clr-white);
+    border: none;
+    width: 100%;
+  }
+  
+  .btnSecondary {
+    background-color: hsl($orange);
+    transition: all 0.6 ease-out;
+    &:hover {
+        background-color: hsl(($orange));
+        transition: all 0.6 ease-out;
+      }
+  }
+  

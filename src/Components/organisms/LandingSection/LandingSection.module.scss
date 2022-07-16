@@ -1,0 +1,39 @@
+@import '../../../styles/variables.scss';
+.containerLanding {
+    color: hsl($clr-white);
+    position: absolute;
+    width: 90%;
+    color: hsl($clr-white);
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+    gap: 2rem;
+    margin-left: 1rem;
+    
+    @media only screen and (min-width: 720px) and (max-width: 1024px) {
+          width: 82%;
+          display: grid;
+          grid-template-columns: 1fr 320px;
+          top: 7rem;
+          left: 2rem;
+        .offer {
+          width: 300px;
+        }
+      }
+      @media screen and (min-width: 1020px) {
+        /* landing page */
+          width: 82%;
+          display: grid;
+          grid-template-columns: 1fr 400px;
+          top: 11rem;
+          left: 6rem;
+       
+        .offer {
+          width: 400px;
+        }
+      }
+  }
+
+

@@ -1,0 +1,10 @@
+@function calculateRem($size) {
+    $rem-size: math.div($size, 16px);
+    @return #{$rem-size}rem;
+  }
+
+  @mixin onDesktop {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }

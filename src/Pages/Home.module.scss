@@ -1,3 +1,13 @@
+
+@import '../styles/variables.scss';
 .homePageContainer{
-    background-color: red;
+    /* Landing section starts here */
+.landingSection {
+    background-color: $primaryColor;
+    background-image: linear-gradient(326deg, $primaryColor 0%, #5f0a87 74%);
+    clip-path: polygon(0 0, 100% 0%, 100% 45%, 0 68%);
+    clip-path: polygon(0 0, 100% 0%, 100% 58%, 0 86%);
+    clip-path: polygon(0 0, 100% 0%, 100% 56%, 0 95%);
+    height: 100vh;
+  }
 }

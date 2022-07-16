@@ -1,0 +1,40 @@
+@import '../../../styles/variables.scss';
+
+.leftSection{
+
+
+.mt3 {
+    margin-top: 3rem;
+  }
+
+  .offer {
+    width: auto;
+    border: 1px dotted;
+    padding: 2rem 2rem;
+    position: relative;
+    color :hsl($clr-white);
+
+    .offerHeading{
+        padding: 0rem 1rem;
+        background-color: hsl($clr-white);
+        color: hsl($orange);
+        position: absolute;
+        top: -13px;
+        left: 12px;
+  }
+
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
+    
+    width: 300px;
+}
+@media screen and (min-width: 1020px) {
+ 
+ 
+    width: 400px;
+}
+ 
+  }
+  
+}
+
+  

@@ -1,0 +1,62 @@
+/* services section stated here */
+@import '../../../styles/variables.scss';
+.servicesSection {
+    text-align: center;
+    width: 100%;
+    background-color: hsl($clr-skyblue);
+    padding: 4rem 0;
+  
+
+  .serviceInnerSection {
+    width: 89%;
+    margin: 0 auto;
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .service {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    justify-content: center;
+  }
+  .cicularIndex {
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl($clr-white);
+    text-align: center;
+    font-weight: 700;
+    color: hsl($clr-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+  }
+  .serviceHeading {
+    width: 100%;
+    text-align: left;
+  }
+
+  @media only screen and (min-width: 720px) {
+    .serviceHeading {
+      width: 300px;
+    }
+    .serviceInnerSection {
+      width: 70%;
+    }
+    .services {
+      justify-content: space-between;
+    }
+    .service {
+      margin-bottom: 0.6rem;
+    }
+  
+  }
+
+}
