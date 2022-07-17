@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/credr-task/static/css/main.a7833f6e.css",
+    "main.js": "/credr-task/static/js/main.388b3e1e.js",
+    "static/js/787.e1234156.chunk.js": "/credr-task/static/js/787.e1234156.chunk.js",
+    "index.html": "/credr-task/index.html",
+    "main.a7833f6e.css.map": "/credr-task/static/css/main.a7833f6e.css.map",
+    "main.388b3e1e.js.map": "/credr-task/static/js/main.388b3e1e.js.map",
+    "787.e1234156.chunk.js.map": "/credr-task/static/js/787.e1234156.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7833f6e.css",
+    "static/js/main.388b3e1e.js"
+  ]
+}
