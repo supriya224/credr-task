@@ -1,3 +1,4 @@
+// @import '../../../styles/variables.scss';
 @import '../../../styles/variables.scss';
 
 .inputContainer{
@@ -9,7 +10,7 @@
         top: 50%;
         transform: translateY(-50%);
         background-color: white;
-        color: hsl($clr-gray);
+        color: #bdbfc1;
         padding: 0 0.3rem;
         margin: 0 0.5rem;
         transition: 0.1s ease-out;
@@ -22,9 +23,9 @@
  input {
     font-size: 0.9rem;
     outline: none;
-    border: 1px solid hsl($clr-gray);
+    border: 1px solid ;
     padding: 1rem 0.7rem;
-    color: hsl($clr-dark);
+    color:#0c0e18;
     transition: 0.1s ease-out;
     width: 93%;
   }

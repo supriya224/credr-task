@@ -1,12 +1,12 @@
-@import "styles/variables";
-@import "styles/index";
-@import "styles/mixins";
+@import "./variables.scss";
+@import "./index.scss";
+// @import "styles/mixins";
 
 html,
 body {
   padding: 0;
   margin: 0;
-  color: $dbStorm;
+  color: #2e3a59;
   font-family: $poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
@@ -129,23 +129,23 @@ button {
 /* colors */
 
 .bg-dark {
-  background-color: hsl(var($clr-dark));
+  background-color:#0c0e18;
 }
 .bg-accent {
-  background-color: hsl(var($clr-light));
+  background-color:#d2d8f9;
 }
 .bg-white {
-  background-color: hsl(var($clr-white));
+  background-color:#ffffff;
 }
 
 .bg-dark {
-  color: hsl(var($clr-dark));
+  color: #0c0e18;
 }
 .text-accent {
-  color: hsl(var($clr-light));
+  color: #d2d8f9;
 }
 .text-white {
-  color: hsl(var($clr-white));
+  color:white;
 }
 
 /* ----------------------------------------------- */
@@ -161,7 +161,7 @@ button {
   background-color: lightsalmon;
 }
 .light-blue-component {
-  background-color: hsl(var(--clr-light) / 0.2);
+  background-color: #d2d8f9;
 }
 
 .main-container {

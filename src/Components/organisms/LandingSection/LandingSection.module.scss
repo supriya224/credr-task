@@ -1,9 +1,10 @@
+// @import '../../../styles/variables.scss';
 @import '../../../styles/variables.scss';
 .containerLanding {
-    color: hsl($clr-white);
+    color: white;
     position: absolute;
     width: 90%;
-    color: hsl($clr-white);
+    color:white;
     display: grid;
     grid-template-columns: 1fr;
     position: absolute;

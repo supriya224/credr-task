@@ -3,18 +3,18 @@
 
 .btn {
     padding: 1rem;
-    color: hsl($clr-white);
+    color: white;
     padding: 1rem;
-    color: hsl($clr-white);
+    color: white;
     border: none;
     width: 100%;
   }
   
   .btnSecondary {
-    background-color: hsl($orange);
+    background-color:#d82246;
     transition: all 0.6 ease-out;
     &:hover {
-        background-color: hsl(($orange));
+        background-color:#d82246;
         transition: all 0.6 ease-out;
       }
   }

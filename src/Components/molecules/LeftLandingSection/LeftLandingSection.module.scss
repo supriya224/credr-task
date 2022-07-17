@@ -1,3 +1,4 @@
+// @import '../../../styles/variables.scss';
 @import '../../../styles/variables.scss';
 
 .leftSection{
@@ -12,12 +13,12 @@
     border: 1px dotted;
     padding: 2rem 2rem;
     position: relative;
-    color :hsl($clr-white);
+    color :white;
 
     .offerHeading{
         padding: 0rem 1rem;
-        background-color: hsl($clr-white);
-        color: hsl($orange);
+        background-color:white;
+        color:#d82246;
         position: absolute;
         top: -13px;
         left: 12px;

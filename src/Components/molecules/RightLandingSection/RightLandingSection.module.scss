@@ -1,11 +1,12 @@
+// @import '../../../styles/variables.scss';
 @import '../../../styles/variables.scss';
 .rightSection{
         padding: 3rem 2rem 4rem;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border-radius: 5px;
         z-index: 1;
-        color: hsl($clr-dark);
-        background-color: hsl($clr-white);
+        color:#0c0e18;
+        background-color:white;
 
     .formTitle{
             font-size: 0.9rem;
@@ -40,8 +41,8 @@
             background: url("https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/344/external-Down-arrows-tanah-basah-glyph-tanah-basah-5.png")
                 no-repeat right 0.8em center / 0.8em,
               linear-gradient(to left, white 3em, rgb(255, 255, 255) 3em);
-            color: hsl($clr-dark);
-            border: 1px solid hsl($clr-gray);
+            color: #0c0e18;
+            border: 1px solid #bdbfc1;
             cursor: pointer;
           }
           /* Remove focus outline */
